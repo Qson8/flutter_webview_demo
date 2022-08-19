@@ -19,17 +19,20 @@ Flutter常见的webView插件:
 ><font color=gray size=4  face="微软雅黑">webview_flutter插件 的使用</font>
 
 * 添加依赖
+
   ```dart
   dependencies:
   webview_flutter: ^0.3.21
   ```
+  
 * 拉取依赖库
   `flutter pub get`
 * 导包
   `import 'package:webview_flutter/webview_flutter.dart';`
 
 <br>
-```dart
+
+```
 Widget build(BuildContext context) {
     return Container(
       child: WebView(
@@ -39,7 +42,7 @@ Widget build(BuildContext context) {
       gestureNavigationEnabled: true,
     ),
     );
-  }
+}
 ```
 
 
@@ -59,6 +62,7 @@ Widget build(BuildContext context) {
   `import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';`
 
 <br>
+
 ```dart
 Widget build(BuildContext context) {
     return Container(
